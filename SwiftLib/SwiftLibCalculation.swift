@@ -11,6 +11,7 @@ import Foundation
 
 public final class SwiftyLibCalculation {
     
+    public init() {}
     let name = "SwiftyLibCalculation"
 
     public func add(a: Int, b: Int) -> Int {

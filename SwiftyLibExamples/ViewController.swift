@@ -9,14 +9,17 @@
 import UIKit
 import SwiftLib
 
+
 class ViewController: UIViewController {
 
     
-    var swiftLibCal:SwiftyLib!
+    var swiftLibCal:SwiftyLibCalculation!
     
     override func viewDidLoad() {
         super.viewDidLoad()
        
+        swiftLibCal =  SwiftyLibCalculation()
+        
         print("swift add two number",swiftLibCal.add(a: 2, b: 3))
      
        
