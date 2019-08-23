@@ -7,11 +7,19 @@
 //
 
 import UIKit
+import SwiftLib
 
 class ViewController: UIViewController {
 
+    
+    var swiftLibCal:SwiftyLib!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        print("swift add two number",swiftLibCal.add(a: 2, b: 3))
+     
+       
         // Do any additional setup after loading the view, typically from a nib.
     }
 
